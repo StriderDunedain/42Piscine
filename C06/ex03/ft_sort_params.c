@@ -26,6 +26,7 @@ void	print(char **argv)
 {
 	char	*str;
 
+	argv++;
 	while (*argv)
 	{
 		str = *argv++;
