@@ -34,7 +34,7 @@ int	ft_find_next_prime(int nb)
 		if (ft_is_prime(nb))
 			return (nb);
 		nb++;
-	}	
+	}
 }
 /*int	main(void) {
 	printf("Result: %i\n", ft_find_next_prime(12));
